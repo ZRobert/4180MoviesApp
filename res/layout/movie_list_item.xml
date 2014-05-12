@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@layout/movie_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/picture_bounds"
+    android:paddingLeft="@dimen/picture_bounds"
+    android:paddingRight="@dimen/picture_bounds"
+    android:paddingTop="@dimen/picture_bounds" >
+
+    <ImageView
+        android:id="@+id/moviePosterSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/movie_poster_content"
+        android:paddingBottom="@dimen/picture_bounds"
+        android:paddingLeft="@dimen/picture_bounds"
+        android:paddingRight="@dimen/picture_bounds"
+        android:paddingTop="@dimen/picture_bounds"
+        android:src="@drawable/fresh" />
+
+    <TextView
+        android:id="@+id/movieListMpaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/movieListYear"
+        android:layout_alignBottom="@+id/movieListYear"
+        android:layout_marginLeft="27dp"
+        android:layout_toRightOf="@+id/movieListYear"
+        android:text="@string/movie_list_mpaa" />
+
+    <ImageView
+        android:id="@+id/movieListAudience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/movieListCritic"
+        android:layout_toRightOf="@+id/movieListCritic"
+        android:contentDescription="@string/movie_list_audience_content"
+        android:src="@drawable/notranked" />
+
+    <TextView
+        android:id="@+id/movieListYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/moviePosterSmall"
+        android:layout_alignLeft="@+id/movieListTitle"
+        android:text="@string/movie_menu_year" />
+
+    <ImageView
+        android:id="@+id/movieListCritic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/movieListMpaa"
+        android:layout_toRightOf="@+id/movieListMpaa"
+        android:contentDescription="@string/movie_list_critic_rating_content"
+        android:src="@drawable/notranked" />
+
+    <TextView
+        android:id="@+id/movieListTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/moviePosterSmall"
+        android:layout_toRightOf="@+id/moviePosterSmall"
+        android:text="@string/movie_list_title"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

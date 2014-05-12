@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Midterm</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_movies">Movies</string>
+    <string name="menu_delete_favs">Delete Favorites</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_item_text">Choice</string>
+    <string name="movie_poster_content">Movie Poster</string>
+    <string name="movie_list_title">Movie Title</string>
+    <string name="movie_menu_year">Year</string>
+    <string name="movie_list_mpaa">mpaa rating</string>
+    <string name="movie_list_critic_rating_content">Critic</string>
+    <string name="movie_list_audience_content"></string>
+    <string name="title_activity_movie">MovieActivity</string>
+    <string name="movie_activity_hours">x</string>
+    <string name="movie_activity_hours_tag">hr.</string>
+    <string name="movie_activity_minutes">x</string>
+    <string name="movie_activity_minutes_tag">min.</string>
+    <string name="movie_title_genre1">genre 1</string>
+    <string name="movie_activity_audience_rating">99%</string>
+    <string name="movie_activity_title">Movie Title</string>
+    <string name="movie_activity_poster_content">Poster</string>
+    <string name="movie_release_date">mm/dd/yyyy</string>
+    <string name="movie_mpaa">mpaa rating</string>
+    <string name="movie_audience">Audience</string>
+    <string name="movie_critic">Critic</string>
+    <string name="movie_critics">Critics</string>
+    <string name="backButton">Back</string>
+    <string name="addToFavorites">Favorites</string>
+    <string name="openWebPage">Open in Browser</string>
+    <string name="audienceRatingImage">Rating</string>
+    <string name="criticRatingSymbol">Rating</string>
+    <string name="emptyString">" "</string>
+
+</resources>
